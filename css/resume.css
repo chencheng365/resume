@@ -1,0 +1,335 @@
+/*
+    重置的样式
+*/
+
+body,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none
+}
+
+body {
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+.clear:after {
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    zoom: 1;
+    clear: both;
+}
+
+.header-wp {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #efefef;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header .h-row {
+    margin-left: 150px;
+    overflow: hidden;
+}
+
+.h-row .name {
+    float: left;
+    font-size: 40px;
+}
+
+@media (max-width: 750px) {
+    .header .h-row {
+        margin-left: 15px;
+    }
+}
+
+.h-row .position {
+    float: left;
+    font-size: 17px;
+    color: #888;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.h-row .info {
+    margin-top: 25px;
+}
+
+.info .contact {
+    float: right;
+    list-style: none;
+    font-size: 14px;
+}
+
+.contact:after {
+    content: ".";
+    height: 0;
+    display: block;
+    zoom: 1;
+    visibility: hidden;
+    clear: both;
+}
+
+.contact li {
+    float: left;
+    margin-right: 20px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.contact .qq,
+.email {
+    padding-left: 22px;
+}
+
+.contact .qq {
+    background: url(../images/icon-qq.svg) no-repeat 0 0;
+    background-size: 20px 25px;
+}
+
+.contact .email {
+    background: url(../images/icon-email.svg) no-repeat 0 0;
+    background-size: 20px 25px;
+}
+
+.contact .blog {
+    padding: 0 8px 0 8px;
+    background: #21d5ac;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer
+}
+
+.contact .blog a {
+    color: #fff;
+}
+
+.container {
+    margin: 0 150px;
+}
+
+@media (max-width: 750px) {
+    .container {
+        margin: 0 15px;
+    }
+}
+
+.cont-row {
+    width: 100%;
+    margin-top: 100px;
+}
+
+@media (max-width: 750px) {
+    .cont-row {
+        margin-top: 20px !important;
+    }
+}
+
+.row-header {
+    height: auto;
+    border-bottom: 1px solid #21d5a3;
+}
+
+.row-header:after {
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.row-header .v-hr {
+    float: left;
+    height: 35px;
+    width: 4px;
+    background-color: #21d5a3;
+}
+
+.row-header .title {
+    padding-left: 7px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.person-info-left {
+    font-size: 18px;
+    padding: 0 16px;
+    float: left;
+    margin-right: 25px;
+}
+
+.cont-info {
+    margin-top: 45px;
+}
+
+.person-info>p {
+    margin-top: 12px;
+}
+
+@media (max-width: 750px) {
+    .person-info>p {
+        margin-top: 3px;
+        font-size: 16px;
+    }
+}
+
+.cont-edu {
+    margin-top: 35px;
+}
+
+.education {
+    margin-top: 15px;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+@media (max-width: 750px) {
+    .education {
+        font-size: 16px;
+    }
+}
+
+.education .college {
+    padding: 3px 16px;
+}
+
+.school-info {
+    float: left;
+    overflow: hidden;
+    min-width: 350px;
+}
+
+.school-info .swu-logo {
+    height: 65px;
+    width: auto;
+    float: left;
+    margin-right: 25px;
+}
+
+@media (max-width: 750px) {
+    .major-info {
+        margin-top: 7px;
+    }
+}
+
+.major-info {
+    float: left;
+}
+
+.r-info {
+    float: left;
+    width: 380px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.cont-skill {
+    margin-top: 35px;
+}
+
+.skill-des{
+ padding-top: 15px;
+ line-height: 1.75;
+}
+
+.skills {
+    list-style: none;
+}
+
+.skills li {
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.skills .html {
+    width: 70%;
+    background: #ef4d28;
+}
+
+.skills .css {
+    width: 400px;
+    background: #008972;
+}
+
+.skills .js {
+    width: 65%;
+    background: #008972;
+}
+
+.skills .jquery {
+    width: 65%;
+    background: #0097a6;
+}
+
+.skills .angular {
+    width: 60%;
+    background: #0067A6;
+}
+
+.skills .nodejs {
+    width: 30%;
+    background: #a65c00;
+}
+
+.cont-exp {
+    margin-top: 35px;
+}
+
+.exper {
+    margin-top: 35px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.exper p {
+    margin-top: 10px;
+    line-height: 1.7;
+}
+
+@media (max-width:750px) {
+    .exper {
+        margin-top: 10px;
+    }
+    .exper p {
+        font-size: 16px;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 13px;
+    margin-top: 40px;
+    color: #333;
+}
+.self-intr{
+    font-size: 16px;
+    padding: 7px 12px;
+    line-height: 1.7
+}
